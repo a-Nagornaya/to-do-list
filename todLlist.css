@@ -1,0 +1,48 @@
+@import url(https://fonts.googleapis.com/css?family=Bitter&vdisplay=swap);
+
+body {
+    color: #5B6E80;
+    background-color: #f9f5f1;
+    font-family: Bitter;
+    margin-left: 2em;
+    margin-top: 1em;
+}
+
+.logo{
+   display: flex;
+   align-items:center;
+}
+.logo>img{
+   width: 2em;
+   height: 3em;
+}
+.logo>h1{
+margin-left: 0.5em;
+}
+.form{
+   display:flex;
+   flex-direction: column;
+}
+
+.form>input{
+height: 5em;
+border: #5BC1AC 3px solid;
+border-radius: 10px;
+font-family: Bitter;
+width: 30%;
+margin-bottom: 1em;
+}
+button{
+background-color:#f9f5f1;
+color:#5B6E80;
+border: #5B6E80 3px solid;
+border-radius: 5px;
+height: 2em;
+width: 31%;
+}
+.mask-num{
+   color: #5BC1AC;
+}
+.mask-list{
+   list-style: none;
+}
